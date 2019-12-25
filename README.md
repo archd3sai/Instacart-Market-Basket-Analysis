@@ -12,3 +12,5 @@ Instacart is an American technology company that operates as a same-day grocery 
 
 **Objective:**
 The objective of this project is to predict which previously purchased products will be in a user’s next order using the anonymized data of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart.
+
+![groceries](https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Groceries.jpg)
