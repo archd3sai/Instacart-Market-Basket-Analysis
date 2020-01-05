@@ -1,1 +1,1 @@
-This folder contains all plots.
+This folder contains plots of initial analysis.
