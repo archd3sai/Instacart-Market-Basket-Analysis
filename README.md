@@ -10,7 +10,11 @@ Market basket analysis might tell a retailer that customers often purchase shamp
 **Instacart:** 
 Instacart is an American technology company that operates as a same-day grocery delivery and pick up service in the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners. The order is shopped and delivered by an Instacart personal shopper.
 
-**Objective:**
-The objective of this project is to predict which previously purchased products will be in a user’s next order using the anonymized data of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart.
+**Objectives:**
+- Analyze the anonymized data of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
+- Find out hidden association between products for better cross-selling and upselling
+- Perform customer segmentation for targeted marketing and anticipate customer behavior
+- Find out reorder probabilities of products for better shelf space optimization
+- Carry out collaborative filtering for products recommendation 
 
 ![groceries](https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Groceries.jpg)
