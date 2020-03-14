@@ -42,5 +42,5 @@ Instacart is an American technology company that operates as a same-day grocery 
     
  
 ## Exploratory Data Analysis
-For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% by type conversion without loosing any information.
+For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
 
