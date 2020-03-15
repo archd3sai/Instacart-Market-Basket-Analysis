@@ -153,14 +153,14 @@ The most common approach to find these patterns is Market Basket Analysis, which
 **Support** : Its the default popularity of an item. In mathematical terms, the support of item A is the ratio of transactions involving A to the total number of transactions.
 
 **Confidence** : Likelihood that customer who bought both A and B. It is the ratio of the number of transactions involving both A and B and the number of transactions involving B.
-    - Confidence(A => B) = Support(A, B)/Support(A)
+- Confidence(A => B) = Support(A, B)/Support(A)
 
 **Lift** : Increase in the sale of A when you sell B.
-    - Lift(A => B) = Confidence(A, B)/Support(B)
+- Lift(A => B) = Confidence(A, B)/Support(B)
       
-    - Lift (A => B) = 1 means that there is no correlation within the itemset.
-    - Lift (A => B) > 1 means that there is a positive correlation within the itemset, i.e., products in the itemset, A, and B, are more likely to be bought together.
-    - Lift (A => B) < 1 means that there is a negative correlation within the itemset, i.e., products in itemset, A, and B, are unlikely to be bought together.
+- Lift (A => B) = 1 means that there is no correlation within the itemset.
+- Lift (A => B) > 1 means that there is a positive correlation within the itemset, i.e., products in the itemset, A, and B, are more likely to be bought together.
+- Lift (A => B) < 1 means that there is a negative correlation within the itemset, i.e., products in itemset, A, and B, are unlikely to be bought together.
     
 **Apriori Algorithm:** Apriori algorithm assumes that any subset of a frequent itemset must be frequent. Its the algorithm behind Market Basket Analysis. Say, a transaction containing {Grapes, Apple, Mango} also contains {Grapes, Mango}. So, according to the principle of Apriori, if {Grapes, Apple, Mango} is frequent, then {Grapes, Mango} must also be frequent.
 
