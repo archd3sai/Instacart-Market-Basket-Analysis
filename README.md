@@ -55,7 +55,9 @@ For the analysis I combined all of the separate data files into one single dataf
 
 - As we can see in below plot that the reorder percentage of day-to-day food items is high and for other products such as vitamins, first-aids, beauty products, etc. reorder percentage is low. This is true as we buy only groceries regularly and do not buy those items in every order.
 
+<p>
 <img align="left" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png"> <img align="right" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png"> 
+<p/>
 <br />
 
 - The below plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
@@ -76,6 +78,7 @@ For the analysis I combined all of the separate data files into one single dataf
 <p>
 <img align="left" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Total-organic-inorganic-products.png"> <img align="right" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Reorder-organic-inorganic-products.png">
 </p>
+
 
 - We can plot add-to-cart-order and mean reorder percentage. As we can see the lower the add-to-cart-order higher is the reorder percentage. This makes sense as we mostly buy things first that are required on day-to-day basis.
 
