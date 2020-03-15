@@ -2,11 +2,6 @@
 
 ## Introduction
 
-**Market Basket Analysis:** 
-Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more or less likely to buy another group of items. Market basket analysis may provide the retailer with information to understand the purchase behavior of a buyer. This information can then be used for purposes of cross-selling and up-selling, in addition to influencing sales promotions, loyalty programs, store design, and discount plans.
-
-Market basket analysis might tell a retailer that customers often purchase shampoo and conditioner together, so putting both items on promotion at the same time would not create a significant increase in revenue, while a promotion involving just one of the items would likely drive sales of the other.
-
 **Instacart:** 
 Instacart is an American technology company that operates as a same-day grocery delivery and pick up service in the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners. The order is shopped and delivered by an Instacart personal shopper.
 
@@ -14,8 +9,6 @@ Instacart is an American technology company that operates as a same-day grocery 
 - Analyze the anonymized data of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
 - Find out hidden association between products for better cross-selling and upselling
 - Perform customer segmentation for targeted marketing and anticipate customer behavior
-- Find out reorder probabilities of products for better shelf space optimization
-- Carry out collaborative filtering for products recommendation 
 
 ## Data Description
 
@@ -115,3 +108,32 @@ For the analysis I combined all of the separate data files into one single dataf
 <p align="center">
   <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cumsum_products.png">
 </p>
+
+## Customer Segmentation
+
+Customer segmentation is the process of dividing customers into groups based on common characteristics so companies can market to each group effectively and appropriately. We can perform segmentation using the data of which products users buy. Since there are thousonds of products and also thousands of customers, I utilized aisles which represent categories of products. 
+
+I then performed Principal component analysis to reduce dimensions as KMeans does not produce good results on higher dimensions. Using 10 principal components I carried out KMeans clustering. I chose optimal number of clusters as 5 using Elbow method shown below.
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/elbow.png">
+</p>
+
+The clustering can be visualized along first two principal components as below.
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cluster.png">
+</p>
+
+The clustering results into 5 neat clusters and after checking most frequent products in them, we can conclude following:
+- Cluster 1 results into 5428 consumers having a very strong preference for water seltzer sparkling water aisle.
+- Cluster 2 results into 55784 consumers who mostly order fresh vegetables followed by fruits.
+- Cluster 3 results into 7948 consumers who buy packaged produce and fresh fruits mostly.
+- Cluster 4 results into 37949 consumers who have a very strong preference for fruits followed by fresh vegetables.
+- Cluster 5 results into 99100 consumers who orders products from many aisles. Their mean orders are low compared to other clusters which tells us that either they are not frequent users of Instacart or they are new users and do not have many orders yet. 
+
+## Markest Basket Analysis
+
+Market Basket Analysis is a modelling technique based upon the theory that if you buy a certain group of items, you are more or less likely to buy another group of items. Market basket analysis may provide the retailer with information to understand the purchase behavior of a buyer. This information can then be used for purposes of cross-selling and up-selling, in addition to influencing sales promotions, loyalty programs, store design, and discount plans.
+
+Market basket analysis might tell a retailer that customers often purchase shampoo and conditioner together, so putting both items on promotion at the same time would not create a significant increase in revenue, while a promotion involving just one of the items would likely drive sales of the other.
