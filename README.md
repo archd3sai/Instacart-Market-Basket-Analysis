@@ -2,13 +2,26 @@
 
 ## Introduction
 
-**Instacart:** 
 Instacart is an American technology company that operates as a same-day grocery delivery and pick up service in the U.S. and Canada. Customers shop for groceries through the Instacart mobile app or Instacart.com from various retailer partners. The order is shopped and delivered by an Instacart personal shopper.
 
 ### Objectives:
-- Analyze the anonymized data of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
+- Analyze the anonymized [data](https://www.kaggle.com/c/instacart-market-basket-analysis/data) of 3 million grocery orders from more than 200,000 Instacart users open sourced by Instacart 
 - Find out hidden association between products for better cross-selling and upselling
 - Perform customer segmentation for targeted marketing and anticipate customer behavior
+
+
+### Project Organization
+```
+.
+├── Plots/                                      : Contains all plots 
+├── Data Description and Analysis.ipynb         : Initial analysis to understand data
+├── Exploratory Data Analysis.ipynb             : EDA to analyze customer purchase pattern
+├── Customers Segmentation.ipynb                : Customer Segmentation based on product aisles
+├── Market Basket Analysis.ipynb                : Market Basket Analysis to find products association
+├── LICENSE                                     : License
+└── README.md                                   : Project Report 
+```
+<br />
 
 ## Data Description
 
@@ -164,4 +177,22 @@ The most common approach to find these patterns is Market Basket Analysis, which
     
 **Apriori Algorithm:** Apriori algorithm assumes that any subset of a frequent itemset must be frequent. Its the algorithm behind Market Basket Analysis. Say, a transaction containing {Grapes, Apple, Mango} also contains {Grapes, Mango}. So, according to the principle of Apriori, if {Grapes, Apple, Mango} is frequent, then {Grapes, Mango} must also be frequent.
 
-I utilized apriori algorithm from Mlxtend python library and found out associations from top 100 most frequent products which resulted in 28 product pairs that have lift highr than 1.
+I utilized apriori algorithm from Mlxtend python library and found out associations from top 100 most frequent products which resulted in 28 product pairs (total 56 rules) that have lift highr than 1. The top 10 product pairs having highest lift are shown below:
+
+| Product A  | Product B | Lift |
+| ------------- | ------------- | ---- |
+| Limes  | Large Lemons  | 3 |
+| Organic Strawberries | Organic Raspberries | 2.21 |
+| Organic Avocado | Large Lemon | 2.12 |
+| Organic Strawberries | Organic Blueberries | 2.11 |
+| Organic Hass Avocado | Organic Raspberries | 2.08 |
+| Banana | Organic Fuji Apple | 1.88 |
+| Bag of Organic Bananas | Organic Raspberries | 1.83 |
+| Organic Hass Avocado | Bag of Organic Bananas | 1.81 |
+| Honeycrisp Apple | Banana | 1.77 |
+| Organic Avocado | Organic Baby Spinach | 1.70 |
+
+## Future Work
+
+- Utilize Collaborative filtering to recommend products to a customer. 
+- Build a ML model to predict product reorder probabilities in the customer's next order.
