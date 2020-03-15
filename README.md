@@ -57,6 +57,7 @@ For the analysis I combined all of the separate data files into one single dataf
 
 <img align="left" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png"> <img align="right" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png"> 
 <br />
+
 - The below plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
 
 <p align="center">
@@ -72,7 +73,9 @@ For the analysis I combined all of the separate data files into one single dataf
 
 - We can see that there are less number of organic products but their Mean reorder percentage is high. This tells us that we should have more organic products in the store.
 
+<p>
 <img align="left" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Total-organic-inorganic-products.png"> <img align="right" width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Reorder-organic-inorganic-products.png">
+</p>
 
 - We can plot add-to-cart-order and mean reorder percentage. As we can see the lower the add-to-cart-order higher is the reorder percentage. This makes sense as we mostly buy things first that are required on day-to-day basis.
 
