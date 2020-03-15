@@ -56,8 +56,8 @@ For the analysis I combined all of the separate data files into one single dataf
 - As we can see in below plot that the reorder percentage of day-to-day food items is high and for other products such as vitamins, first-aids, beauty products, etc. reorder percentage is low. This is true as we buy only groceries regularly and do not buy those items in every order.
 
 <p float="left">
-<width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png"> 
-<width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png"> 
+<img width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png"> 
+<img width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png"> 
 <p/>
 
 - The below plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
@@ -66,7 +66,6 @@ For the analysis I combined all of the separate data files into one single dataf
   <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-departments.png">
 </p>
 
-<br />
 - The below plot shows most popular products. As we can see there are many organic products in the most popular products.
 
 <p align="center">
@@ -76,8 +75,8 @@ For the analysis I combined all of the separate data files into one single dataf
 - We can see that there are less number of organic products but their Mean reorder percentage is high. This tells us that we should have more organic products in the store.
 
 <p float="left">
-<width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Total-organic-inorganic-products.png"> 
-<width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Reorder-organic-inorganic-products.png">
+    <img width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Total-organic-inorganic-products.png"/> 
+    <img width="415" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/Reorder-organic-inorganic-products.png"/>
 </p>
 
 
