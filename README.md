@@ -135,7 +135,7 @@ I then performed Principal component analysis to reduce dimensions as KMeans doe
 The clustering can be visualized along first two principal components as below.
 
 <p align="center">
-  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cluster.png">
+  <img width="600" height="400" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/cluster.png">
 </p>
 
 The clustering results into 5 neat clusters and after checking most frequent products in them, we can conclude following:
