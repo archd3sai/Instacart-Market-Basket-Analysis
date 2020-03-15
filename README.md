@@ -30,6 +30,10 @@ Instacart is an American technology company that operates as a same-day grocery 
     - Majority of the orders are made during the day time.
     - Customers order once in a week which is supported by peaks at 7, 14, 21 and 30 in 'Orders VS Days since prior order' graph.
     - Based on the heatmap between 'Day of Week' and 'Hour of Day,' we can say that Saturday afternoons and Sunday mornings are prime time for orders.
+<p align="center">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/heatmap.png">
+</p>
+
 - **products:** This file contains the list of total 49688 products and their aisle as well as department. The number of products in different aisles and different departments are different.
 - **order_products_prior:** This file gives information about which products were ordered and in which order they were added in the cart. It also tells us that if the product was reordered or not.
     - In this file there is an information of total 3214874 orders through which total 49677 products were ordered.
@@ -44,3 +48,19 @@ Instacart is an American technology company that operates as a same-day grocery 
 ## Exploratory Data Analysis
 For the analysis I combined all of the separate data files into one single dataframe and to fit the dataframe in my memory I reduced its size to 50% (4.1 GB to 2.0 GB) by type conversion and without loosing any information.
 
+- This plot shows most popular aisles based on total products bought.
+<p align="center">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-aisles.png">
+</p>
+
+- As we can see in below plot that the reorder percentage of day-to-day food items is high and for other products such as vitamins, first-aids, beauty products, etc. reorder percentage is low. This is true as we buy only groceries regularly and do not buy those items in every order.
+
+<img align="left" width="410" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-high-reorder.png"> <img align="right" width="410" height="250" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/aisle-low-reorder.png">
+
+<p align="center">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/popular-departments.png">
+</p>
+
+- The above plot shows popular departments. The store layout should be in a way that popular departments are very near to each other.
+
+- 
