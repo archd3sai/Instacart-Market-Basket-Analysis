@@ -231,8 +231,8 @@ To build a model, I need to extract features from previous order to understand u
 (10) Reorder percentage, Total orders and reorders of a product department
 (11) Mean and std of department add-to-cart-order
 (12) Department unique users
-(13) Binary encoding of aisle feature (Because one-hot encoding of aisles results in many features and make datarame sparse)
-(14) Binary encoding of department feature (Because one-hot encoding of departments results in many features and make datarame sparse)
+(13) Binary encoding of aisle feature (Because one-hot encoding results in many features and make datarame sparse)
+(14) Binary encoding of department feature (Because one-hot encoding results in many features and make datarame sparse)
 ```
 
 **User Level features:** To capture user's purchase pattern and behavior
@@ -271,30 +271,30 @@ Since, we can hack the F1 score by changing the threshold, I relied on AUC Score
 **Neural Network Model Architecture and Performance:**
 
 <p align="center">
-  <src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN%20Architecture.png">
+  <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN%20Architecture.png">
 </p>
 
 <p align="center">
-  <src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Report.png">
+  <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Report.png">
 </p>
 
 <p align="center">
-  <src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Performance.png">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/NN-Performance.png">
 </p>
 
 
 **XGBoost Model's Performance and Feature Importance:**
 
 <p align="center">
-  <src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost-Report.png">
+  <img width="400" height="200" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost-Report.png">
 </p>
 
 <p align="center">
-  <src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost-Performance.png">
+  <img width="600" height="300" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Performance.png">
 </p>
 
 <p align="center">
-  <src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Feature%20Importance%20Plot.png">
+  <img width="500" height="750" src="https://github.com/archd3sai/Instacart-Market-Basket-Analysis/blob/master/Plots/XGBoost%20Feature%20Importance%20Plot.png">
 </p>
 
 
