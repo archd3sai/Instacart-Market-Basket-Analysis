@@ -20,7 +20,7 @@ Instacart is an American technology company that operates as a same-day grocery 
 ├── Market Basket Analysis.ipynb                : Market Basket Analysis to find products association
 ├── Feature Extraction.ipynb                    : Feature engineering and extraction for a ML model
 ├── Data Preparation.ipynb                      : Data preparation for modeling
-├── ANN Model.ipynb                             : Artificial Neural Network model for product reorder prediction
+├── ANN Model.ipynb                             : Neural Network model for product reorder prediction
 ├── XGBoost Model.ipynb                         : XGBoost model for product reorder prediction
 ├── LICENSE                                     : License
 └── README.md                                   : Project Report 
