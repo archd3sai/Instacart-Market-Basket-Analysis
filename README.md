@@ -180,7 +180,7 @@ The most common approach to find these patterns is Market Basket Analysis, which
 **Support** : Its the default popularity of an item. In mathematical terms, the support of item A is the ratio of transactions involving A to the total number of transactions.
 
 **Confidence** : Likelihood that customer who bought both A and B. It is the ratio of the number of transactions involving both A and B and the number of transactions involving B.
-- Confidence(A => B) = Support(A, B)/Support(A)
+- Confidence(A => B) = Support(A, B)/Support(B)
 
 **Lift** : Increase in the sale of A when you sell B.
 - Lift(A => B) = Confidence(A, B)/Support(B)
